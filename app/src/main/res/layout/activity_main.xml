@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/version_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#0000ff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/today_btn"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:background="#808080"
+            android:text="TODAY" />
+        <Button
+            android:id="@+id/week_btn"
+            android:layout_marginLeft="5dp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:background="#808080"
+            android:text="WEEK" />
+        <Button
+            android:id="@+id/all_btn"
+            android:layout_marginLeft="5dp"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:background="#808080"
+            android:text="ALL" />
+        <Button
+            android:id="@+id/dump_btn"
+            android:layout_width="70dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffff"
+            android:background="#00aa00"
+            android:text="UPDATE" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/desc_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:textColor="#000000"
+        android:text=""/>
+    <ListView
+        android:id="@+id/app_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#a0adae"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

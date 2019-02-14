@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="header_orange">#ae7a12</color>
+    <color name="header_blue">#362ddf</color>
+    <color name="header_cyan">#4aefed</color>
+    <color name="stat_bg">#f6f1d2</color>
+    <color name="total_bg">#d4d2c5</color>
+</resources>
